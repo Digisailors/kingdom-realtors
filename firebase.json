@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "public",
+    "site"  : "kingdomreal",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

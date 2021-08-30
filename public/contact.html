@@ -21,7 +21,7 @@
 <meta name="twitter:image" content="" />
 <meta name="twitter:url" content="" />
 <meta name="twitter:card" content="" />
-
+<script src="js/contact_validate.js"></script>
 <link rel="manifest" href="site.webmanifest">
 <!-- favicon.ico in the root directory -->
 <link rel="apple-touch-icon" href="icon.png">
@@ -33,6 +33,14 @@
     }
     .bg-theme-footer{
         background-image: url("images/bg18.jpg");
+    }
+    .topbar{
+        background: linear-gradient(90deg, #926c01 0%, #d4a010 61%, #ffc31d 100%);
+    }
+    .btn-primary{
+        background-color : #ffcb3a !important;
+        color: black;
+        border: #ffcb3a;
     }
 </style>
 <body>
@@ -54,13 +62,13 @@
                   
                     <ul class="topbar-sosmed">
                         <li>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/kingdomrealtors777"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="https://twitter.com/jerome_selvan"><i class="fa fa-twitter"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/kingdomrealtors777/"><i class="fa fa-instagram"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -73,7 +81,7 @@
         <nav class="navbar navbar-hover navbar-expand-lg navbar-soft">
     <div class="container">
         <a class="navbar-brand" href="#">
-            <img src="images/king_logo.jpg" alt="">
+            <img src="images/Final kingdom realtor logo NEW-01.jpg" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav99">
             <span class="navbar-toggler-icon"></span>
@@ -157,18 +165,22 @@
             <div class="row">
                 <div class="col-md-8">
                     <h5>contact us</h5>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                    onload="if(submitted)  { alert('Thanks for showing interest, Our team will contact you.'); window.location='https://kingdomreal.web.app/';}"></iframe>
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd987W6rrBYJPhrX5gbUU8wpupOYf1KDhF26p77jS9tSuE51Q/formResponse"
+                    target="hidden_iframe" method="POST" id="mG61Hd" onsubmit="return validateForm();">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group form-group-name">
                                 <label>Your name <span class="required"></span></label><span style="color: red;">*</span>
-                                <input type="text" class="form-control" name="name" required="">
+                                <input type="text" class="form-control" id="name" name="entry.1525367868" >
 
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="form-group form-group-name">
+                            <div class="form-group">
                                 <label>Your email <span class="required"></span></label><span style="color: red;">*</span>
-                                <input type="email" class="form-control" name="email" required="">
+                                <input type="email" style=" text-transform: none;" class="form-control" id="email" name="entry.340109487" >
 
                             </div>
                         </div>
@@ -176,27 +188,28 @@
                         <div class="col-md-6">
                             <div class="form-group form-group-name">
                                 <label>Mobile Number <span class="required"></span></label><span style="color: red;">*</span>
-                                <input type="text" class="form-control" name="website" required="">
+                                <input type="text" class="form-control"id="phone" name="entry.1274765223" >
 
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-name">
                                 <label>Subject <span class="required"></span></label>
-                                <input type="text" class="form-control" name="subject" required="">
+                                <input type="text" class="form-control"  name="entry.682535923" >
 
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
                                 <label>Your message </label>
-                                <textarea class="form-control" rows="9" name="message"></textarea>
+                                <textarea class="form-control" rows="9" name="entry.782218552"></textarea>
                             </div>
                             <div class="form-group float-right mb-0">
                                 <button type="submit" class="btn btn-primary btn-contact">Submit</button>
                             </div>
                         </div>
                     </div>
+                </form>
                 </div>
 
 
@@ -249,12 +262,12 @@
                             <ul class="list-inline">
 
                                 <li class="list-inline-item">
-                                    <a href="#" class="btn btn-social rounded text-white facebook">
+                                    <a href="https://www.facebook.com/kingdomrealtors777" class="btn btn-social rounded text-white facebook">
                                         <i class="fa fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="btn btn-social rounded text-white twitter">
+                                    <a href="https://twitter.com/jerome_selvan" class="btn btn-social rounded text-white twitter">
                                         <i class="fa fa-twitter"></i>
                                     </a>
                                 </li>
@@ -264,12 +277,12 @@
                                     </a>
                                 </li> -->
                                 <li class="list-inline-item">
-                                    <a href="#" class="btn btn-social rounded text-white telegram">
-                                        <i class="fa fa-telegram"></i>
+                                    <a href="https://www.instagram.com/kingdomrealtors777/" class="btn btn-social rounded text-white instagram">
+                                        <i class="fa fa-instagram"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="btn btn-social rounded text-white linkedin">
+                                    <a href="https://www.linkedin.com/in/jerome-selvan" class="btn btn-social rounded text-white linkedin">
                                         <i class="fa fa-linkedin"></i>
                                     </a>
                                 </li>
@@ -324,23 +337,36 @@
                                 Follow us and stay in touch to get the latest news
                             </p>
                             <p>
-                                <button class="btn btn-social btn-social-o facebook mr-1">
-                                    <i class="fa fa-facebook-f"></i>
-                                </button>
-                                <button class="btn btn-social btn-social-o twitter mr-1">
-                                    <i class="fa fa-twitter"></i>
-                                </button>
-
-                                <button class="btn btn-social btn-social-o linkedin mr-1">
-                                    <i class="fa fa-linkedin"></i>
-                                </button>
-                                <button class="btn btn-social btn-social-o instagram mr-1">
-                                    <i class="fa fa-instagram"></i>
-                                </button>
-
-                                <button class="btn btn-social btn-social-o youtube mr-1">
-                                    <i class="fa fa-youtube"></i>
-                                </button>
+                                <a target="_blank" href="https://www.facebook.com/kingdomrealtors777">
+                                    <button class="btn btn-social btn-social-o facebook mr-1">
+                                        <i class="fa fa-facebook-f"></i>
+                                    </button>
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/jerome_selvan">
+                                    <button class="btn btn-social btn-social-o twitter mr-1">
+                                        <i class="fa fa-twitter"></i>
+                                    </button>
+                                    </a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/jerome-selvan">
+                                    <button class="btn btn-social btn-social-o linkedin mr-1">
+                                        <i class="fa fa-linkedin"></i>
+                                    </button>
+                                    </a>
+                                    <a target="_blank" href="https://www.instagram.com/kingdomrealtors777/">
+                                    <button class="btn btn-social btn-social-o instagram mr-1">
+                                        <i class="fa fa-instagram"></i>
+                                    </button>
+                                    </a>
+                                    <a target="_blank" href="https://www.youtube.com/channel/UCXYLf9Iy7KAVAr64svKosDQ">
+                                    <button class="btn btn-social btn-social-o youtube mr-1">
+                                        <i class="fa fa-youtube"></i>
+                                    </button>
+                                    </a>
+                                    <a target="_blank" href="https://www.expglobalindia.co.in/A42507#/.YSoyYJgrrk8.whatsapp">
+                                        <button class="btn btn-social btn-social-o ">
+                                            <img style="width: 100%; margin-top: -29.5%;" src="images/expindia.png"></img>
+                                        </button>
+                                    </a>
                             </p>
                             <br>
                             <h4 class="footer-title">newsletter</h4>

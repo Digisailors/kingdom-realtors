@@ -21,7 +21,7 @@
 <meta name="twitter:image" content="" />
 <meta name="twitter:url" content="" />
 <meta name="twitter:card" content="" />
-<script src="js/contact_validate.js"></script>
+
 <link rel="manifest" href="site.webmanifest">
 <!-- favicon.ico in the root directory -->
 <link rel="apple-touch-icon" href="icon.png">
@@ -40,9 +40,19 @@
     .btn-primary{
         background-color : #ffcb3a !important;
         color: black;
-        border: #ffcb3a;
+    }
+    /* .wrap-agent .team-hover{
+        width: 74%;
+    }
+    .wrap-agent .team-member .team-img img{
+        width: 74% !important;
+        height: 500px;
+    }
+    .wrap-agent .team-title{
+        width: 74%; */
     }
 </style>
+
 <body>
     <!-- HEADER -->
     <header>
@@ -53,13 +63,17 @@
             <div class="col-sm-12 col-md-5">
                 <div class="topbar-left">
                     <div class="topbar-text">
-                        <label id="date">Monday, March 22, 2020</label>
+                        Monday, March 22, 2020
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-7">
                 <div class="list-unstyled topbar-right">
-                  
+                    <!-- <ul class="topbar-link">
+                        <li><a href="#" title="">Career</a></li>
+                        <li><a href="#" title="">Contact Us</a></li>
+                        <li><a href="#" title="">Login / Register</a></li>
+                    </ul> -->
                     <ul class="topbar-sosmed">
                         <li>
                             <a href="https://www.facebook.com/kingdomrealtors777"><i class="fa fa-facebook"></i></a>
@@ -92,60 +106,15 @@
                     <a class="nav-link" href="index.html"> Home </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="about-us.html" > About Us </a>
+                    <a class="nav-link active" href="#" > About Us </a>
                 </li>
                 <!-- <li class="nav-item ">
                     <a class="nav-link" href="blog.html"> Blog </a>
                 </li> -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Properties </a>
-                    <ul class="dropdown-menu animate fade-up">
-
-                        <li><a class="dropdown-item icon-arrow" href="#"> Lodha </a>
-                            <ul class="submenu dropdown-menu  animate fade-up">
-                                <li><a class="dropdown-item" href="central-mumbai.html"> Central Mumbai</a></li>
-                                <li><a class="dropdown-item" href="kalyan.html"> Kalyan-Dombivali</a></li>
-                                <li><a class="dropdown-item" href="lodha-thane.html"> Thane</a></li>                                        
-                            </ul>
-                        </li>   
-                        <li><a class="dropdown-item " href="brickitt.html"> Brickitt </a>
-                        </li>     
-                        <li><a class="dropdown-item" href="pushpam.html"> Pushpam Group </a>
-                        </li>     
-                        <li><a class="dropdown-item" href="MICL.html"> MICL </a>
-                        </li>     
-                        <li><a class="dropdown-item" href="dosti.html"> Dosti realty </a>
-                        </li>     
-                        <li><a class="dropdown-item" href="jk-iries.html"> JK Iris </a>
-                        </li>     
-                        <li><a class="dropdown-item" href="damji.html"> Damji Shamji </a>
-                        </li>     
-                        <li><a class="dropdown-item" href="kalpataru.html"> Kalpataru Group </a>
-                        </li>     
-                        <li><a class="dropdown-item icon-arrow" href="#"> piramal </a>
-                            <ul class="submenu dropdown-menu  animate fade-up">
-                                <li><a class="dropdown-item" href="mahalaxmi.html">  Mahalaxmi</a></li>
-                                <li><a class="dropdown-item" href="piramal-vaikunth.html">  Vaikunth</a></li>                                        
-                            </ul>
-                        </li>     
-                        <li><a class="dropdown-item icon-arrow" href="#"> Godrej Properties </a>
-                            <ul class="submenu dropdown-menu  animate fade-up">
-                                <li><a class="dropdown-item" href="godrej-emerald.html"> Emerald Thane</a></li>
-                                <li><a class="dropdown-item" href="godrej-exquisite.html"> Exquisite</a></li>
-                                <li><a class="dropdown-item" href="godrej-highland.html"> Highland Panvel</a></li>
-                                <li><a class="dropdown-item" href="godrej-nest.html"> Nest Kandivali</a></li> 
-                                <li><a class="dropdown-item" href="godrej-panvel.html"> Panvel</a></li>
-                                <!-- <li><a class="dropdown-item" href="/listing-style-v2.html"> RKS Chembur</a></li>  -->
-                                <li><a class="dropdown-item" href="godrej-upvan.html"> Upvan Thane extn</a></li>
-                                <li><a class="dropdown-item" href="godrej-urban.html"> Urban park Chandivali</a></li>                                         
-                                <li><a class="dropdown-item" href="godrej-badlaper.html"> Vihaa Badlapur</a></li>
-                            </ul>
-                        </li>     
-                        <li><a class="dropdown-item" href="#"> Raymond </a>
-                        </li>                          
-                    </ul>
+                <li class="nav-item ">
+                    <a class="nav-link" href="property.html"> Properties </a>
                 </li>
-                <li class="nav-item active"><a class="nav-link active" href="#"> contact </a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html"> contact </a></li>
             </ul>
             <!-- Search content bar.// -->
             <div class="top-search navigation-shadow">
@@ -181,7 +150,7 @@
                 <div class="container">
                     <div class="row d-flex justify-content-center">
                         <div class="col-md-8 text-center">
-                            <h2 class="text-capitalize text-white">contact us</h2>
+                            <h2 class="text-capitalize text-white">properties</h2>
                             <ul class="list-inline ">
                                 <li class="list-inline-item">
                                     <a href="#" class="text-white">
@@ -190,7 +159,7 @@
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="#" class="text-white">
-                                        contact us
+                                        Properties
                                     </a>
                                 </li>
 
@@ -204,141 +173,136 @@
     </header>
     <div class="clearfix"></div>
 
-    <!-- Form contact -->
-    <section class="wrap__contact-form">
+    <!-- OUR TEAM -->
+    <section class="bg-light" style="padding-bottom: 0%;">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <h5>contact us</h5>
-                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
-                    onload="if(submitted)  { alert('Thanks for showing interest, Our team will contact you.'); window.location='https://kingdomreal.web.app/';}"></iframe>
-                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd987W6rrBYJPhrX5gbUU8wpupOYf1KDhF26p77jS9tSuE51Q/formResponse"
-                    target="hidden_iframe" method="POST" id="mG61Hd" onsubmit="return validateForm();">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group form-group-name">
-                                <label>Your name <span class="required"></span></label><span style="color: red;">*</span>
-                                <input type="text" class="form-control" id="name" name="entry.1525367868" >
-
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label>Your email <span class="required"></span></label><span style="color: red;">*</span>
-                                <input type="email" style=" text-transform: none;" class="form-control" id="email" name="entry.340109487" >
-
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="form-group form-group-name">
-                                <label>Mobile Number <span class="required"></span></label><span style="color: red;">*</span>
-                                <input type="text" class="form-control"id="phone" name="entry.1274765223" >
-
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-name">
-                                <label>Subject <span class="required"></span></label>
-                                <input type="text" class="form-control"  name="entry.682535923" >
-
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label>Your message </label>
-                                <textarea class="form-control" rows="9" name="entry.782218552"></textarea>
-                            </div>
-                            <div class="form-group float-right mb-0">
-                                <button type="submit" class="btn btn-primary btn-contact">Submit</button>
-                            </div>
-                        </div>
+                <div class="col-md-6 mx-auto">
+                    <div class="title__head">
+                        <h2 class="text-center text-capitalize">
+                            our Projects
+                        </h2>
                     </div>
-                </form>
                 </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </section>
+    <section style="padding-top: 0%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="tabs__custom-v2 ">
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade" id="pills-tab-one" role="tabpanel"
+                                        aria-labelledby="pills-tab-one">
+                                    </div>
+                                    <div class="tab-pane fade show active" id="pills-tab-two" role="tabpanel"
+                                        aria-labelledby="pills-tab-two">
+                                        <div class="row">
+                                            <div class="col-md-4 col-lg-4">
+                                                <div class="card__image card__box-v1">
+                                                    <div class="card__image-header h-250">                                                       
+                                                        <img src="project_img/godrej/upvan/Screenshot 2021-08-31 084621.png" alt=""
+                                                            class="img-fluid w100 img-transition">                                                       
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-4 col-lg-4">
+                                                <div class="card__image card__box-v1">
+                                                    <div class="card__image-header h-250">                                                       
+                                                        <img src="project_img/godrej/upvan/Screenshot 2021-08-31 084647.png" alt=""
+                                                            class="img-fluid w100 img-transition">                                                       
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-4 col-lg-4">
+                                                <div class="card__image card__box-v1">
+                                                    <div class="card__image-header h-250">                                                       
+                                                        <img src="project_img/godrej/upvan/Screenshot 2021-08-31 084714.png" alt=""
+                                                            class="img-fluid w100 img-transition">                                                       
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="cleafix"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-lg-4">
+                                            <div class="card__image card__box-v1">
+                                                <div class="card__image-header h-250">                                                       
+                                                    <img src="project_img/godrej/upvan/Screenshot 2021-08-31 084804.png" alt=""
+                                                        class="img-fluid w100 img-transition">                                                       
+                                                </div>
+                                            </div>
+
+                                        </div> 
+                                        <div class="col-md-4 col-lg-4">
+                                            <div class="card__image card__box-v1">
+                                                <div class="card__image-header h-250">                                                       
+                                                    <img src="project_img/godrej/upvan/Screenshot 2021-08-31 084836.png" alt=""
+                                                        class="img-fluid w100 img-transition">                                                       
+                                                </div>
+                                            </div>
+
+                                        </div> 
+                                        <div class="col-md-4 col-lg-4">
+                                            <div class="card__image card__box-v1">
+                                                <div class="card__image-header h-250">                                                       
+                                                    <img src="project_img/godrej/upvan/Screenshot 2021-08-31 105420.png" alt=""
+                                                        class="img-fluid w100 img-transition">                                                       
+                                                </div>
+                                            </div>
+
+                                        </div>                                       
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-lg-4">
+                                            <div class="card__image card__box-v1">
+                                                <div class="card__image-header h-250">                                                       
+                                                    <img src="project_img/godrej/upvan/Screenshot 2021-08-31 105538.png" alt=""
+                                                        class="img-fluid w100 img-transition">                                                       
+                                                </div>
+                                            </div>
+
+                                        </div> 
+                                        <div class="col-md-4 col-lg-4">
+                                            <div class="card__image card__box-v1">
+                                                <div class="card__image-header h-250">                                                       
+                                                    <img src="project_img/godrej/upvan/Screenshot 2021-08-31 105608.png" alt=""
+                                                        class="img-fluid w100 img-transition">                                                       
+                                                </div>
+                                            </div>
+
+                                        </div> 
+                                    </div>
+                                    <div class="cleafix"></div>
+                                </div>
+
+                                <div class="cleafix"></div>
+                            </div>
 
 
-                <div class="col-md-4">
-                    <div class="wrap__contact-open-hours">
-                        <h5 class="text-capitalize">open hours</h5>
-                        <ul class="list-unstyled">
-                            <li class="d-flex align-items-center justify-content-between"><span>Sunday - Saturday</span>
-                                <span>09 AM - 09 PM</span></li>
-                        </ul>
-                    </div>
-                    <h5>Info location</h5>
-                    <div class="wrap__contact-form-office">
-                        <ul class="list-unstyled">
-                            <li>
-                                <span>
-                                    <i class="fa fa-home"></i>
-                                </span>
 
-                                Shop No.11, Sheetal Palace, Sheetal Nagar,
-                                Mira Road (E),Thane - 401107, Maharashtra.
-
-
-
-                            </li>
-                            <li>
-                                <span>
-                                    <i class="fa fa-phone"></i>
-                                    <a href="tel:">+91 7977542362</a>
-                                </span>
-
-                            </li>
-                            <li>
-                                <span>
-                                    <i class="fa fa-envelope"></i>
-                                    <a href="mailto:">jeromeselvan@yahoo.in</a>
-                                </span>
-
-                            </li>
-                            <li>
-                                <span>
-                                    <i class="fa fa-globe"></i>
-                                    <a href="#" target="_blank">www.kingdomgroup.com</a>
-                                </span>
-                            </li>
-                        </ul>
-
-                        <div class="social__media">
-                            <h5>find us</h5>
-                            <ul class="list-inline">
-
-                                <li class="list-inline-item">
-                                    <a href="https://www.facebook.com/kingdomrealtors777" class="btn btn-social rounded text-white facebook">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="https://twitter.com/jerome_selvan" class="btn btn-social rounded text-white twitter">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <!-- <li class="list-inline-item">
-                                    <a href="#" class="btn btn-social rounded text-white whatsapp">
-                                        <i class="fa fa-whatsapp"></i>
-                                    </a>
-                                </li> -->
-                                <li class="list-inline-item">
-                                    <a href="https://www.instagram.com/kingdomrealtors777/" class="btn btn-social rounded text-white instagram">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="https://www.linkedin.com/in/jerome-selvan" class="btn btn-social rounded text-white linkedin">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                                </div>
+                                <!-- END FILTER VERTICAL -->
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Form contact  -->
+    <!-- END TEAM -->
+
+
 
 
     <!-- CALL TO ACTION -->
@@ -464,29 +428,14 @@
     </footer>
 
 
-    <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
 
-<script type="text/javascript" src="./js/index.bundle.js?fd365619e86ad9137a29"></script></body>
+
+
+   <!-- SCROLL TO TOP -->
+   <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+   <!-- END SCROLL TO TOP -->
+   <script src="./js/index.bundle.js?fd365619e86ad9137a29"></script>
+
+   </body>
 
 </html>
-<script>487
-
-    var dateObj = new Date();
-    var month = dateObj.getUTCMonth() + 1; //months from 1-12
-    var day = dateObj.getUTCDate();
-    var year = dateObj.getUTCFullYear();
-
-
-    var d = new Date();
-  var weekday = new Array(7);
-  weekday[0] = "Sunday";
-  weekday[1] = "Monday";
-  weekday[2] = "Tuesday";
-  weekday[3] = "Wednesday";
-  weekday[4] = "Thursday";
-  weekday[5] = "Friday";
-  weekday[6] = "Saturday";
-
-  var n = weekday[d.getDay()];
-  document.getElementById("date").innerHTML = n+', '+month+' '+ year;
-    </script>

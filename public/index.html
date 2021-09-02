@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Rethouse - Real Estate HTML Template">
+    <meta name="description" content="Kingdom Realtors">
     <meta name="keywords" content="Real Estate, Property, Directory Listing, Marketing, Agency" />
     <meta name="author" content="mardianto - retenvi.com">
-    <title>Rethouse - Real Estate HTML Template</title>
+    <title>Kingdom Realtors</title>
 
     <!-- Facebook and Twitter integration -->
     <meta property="og:title" content="" />
@@ -20,7 +20,7 @@
     <meta name="twitter:image" content="" />
     <meta name="twitter:url" content="" />
     <meta name="twitter:card" content="" />
-
+    <script src="js/contact.js"></script>
     <link rel="manifest" href="site.webmanifest">
     <!-- favicon.ico in the root directory -->
     <link rel="apple-touch-icon" href="icon.png">
@@ -29,7 +29,7 @@
 </head>
 <style>
     .bg-theme{
-        background-image: url("images/back1.jpeg");
+        background-image: url("images/bg_1.jpg");
     }
     .bg-theme-v4{
         background-image: url("images/bgoverlay.jpg");
@@ -53,7 +53,19 @@
         color: black;
         border: #ffcb3a;
     }
- 
+    @media (max-width: 420px){
+        .navbar-soft .navbar-brand img{
+         width: 120px !important;
+        }
+    }
+    @media (max-width: 760px){
+        #foot-img{
+            width: 6%;
+        }
+    }
+    #foot-img{
+        width: 14%;
+    }
 </style>
 <body>
     <!-- HEADER -->
@@ -62,9 +74,12 @@
         <!-- NAVBAR -->
         <nav class="navbar navbar-hover navbar-expand-lg navbar-soft navbar-transparent">
             <div class="container">
-                <a class="navbar-brand" href="/homepage-v1.html">
-                    <img src="images/Final kingdom realtor logo NEW-01.png" alt="">
+                <a class="navbar-brand" href="#">
+                    <img src="images/king.png" alt="">
                     <img src="images/Final kingdom realtor logo NEW-01.jpg" alt="">
+                </a>
+                <a class="navbar-brand" href="#">
+                    <img src="images/exp.jpeg" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav99">
                     <span class="navbar-toggler-icon"></span>
@@ -77,7 +92,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="about-us.html" > About Us </a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Properties </a>
                             <ul class="dropdown-menu animate fade-up">
         
@@ -115,16 +130,17 @@
                                         <li><a class="dropdown-item" href="godrej-highland.html"> Highland Panvel</a></li>
                                         <li><a class="dropdown-item" href="godrej-nest.html"> Nest Kandivali</a></li> 
                                         <li><a class="dropdown-item" href="godrej-panvel.html"> Panvel</a></li>
-                                        <!-- <li><a class="dropdown-item" href="/listing-style-v2.html"> RKS Chembur</a></li>  -->
                                         <li><a class="dropdown-item" href="godrej-upvan.html"> Upvan Thane extn</a></li>
                                         <li><a class="dropdown-item" href="godrej-urban.html"> Urban park Chandivali</a></li>                                         
                                         <li><a class="dropdown-item" href="godrej-badlaper.html"> Vihaa Badlapur</a></li>
                                     </ul>
                                 </li>     
-                                <li><a class="dropdown-item" href="#"> Raymond </a>
+                                <li><a class="dropdown-item" href="ramand.html"> Raymond </a>
                                 </li>                          
                             </ul>
-                        </li>
+                        </li> -->
+                        <li class="nav-item"><a class="nav-link" href="marketing.html"> Marketing </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"> News & Event </a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html"> contact </a></li>
                     </ul>
 
@@ -210,7 +226,7 @@
                             <div class="card__image card__box">
                                 <div class="card__image-header h-250">
                                     <div class="ribbon text-capitalize">featured</div>
-                                    <img src="images/f1.png" alt="" class="img-fluid w100 img-transition">
+                                    <img src="project_img/lodha/WhatsApp Image 2021-08-11 at 3.44.35 PM.jpeg" alt="" class="img-fluid w100 img-transition">
                                     <!-- <div class="info"> for sale</div> -->
                                 </div>
                                 <div class="card__image-body">
@@ -223,7 +239,7 @@
                                         <i class="fa fa-map-marker"></i>
                                         Thane, South Mumbai
                                     </p>
-                                    <p>1/2/3/4 BHK &nbsp;&nbsp;<i class="fa fa-bath"></i>&nbsp;&nbsp;<i class="fa fa-bed"></i>&nbsp;&nbsp;<i class="fa fa-inbox"></i></p>
+                                    <p>1/2/3 BHK &nbsp;&nbsp;<i class="fa fa-bath"></i>&nbsp;&nbsp;<i class="fa fa-bed"></i>&nbsp;&nbsp;<i class="fa fa-inbox"></i></p>
                                 </div>
                             </div>
                         </div>
@@ -245,7 +261,7 @@
                                         <i class="fa fa-map-marker"></i>
                                        Mira Road
                                     </p>
-                                    <p>1/2/3/4 BHK &nbsp;&nbsp;<i class="fa fa-bath"></i>&nbsp;&nbsp;<i class="fa fa-bed"></i>&nbsp;&nbsp;<i class="fa fa-inbox"></i></p>
+                                    <p>1/2/3 BHK &nbsp;&nbsp;<i class="fa fa-bath"></i>&nbsp;&nbsp;<i class="fa fa-bed"></i>&nbsp;&nbsp;<i class="fa fa-inbox"></i></p>
                                 </div>
                             </div>
                         </div>
@@ -260,14 +276,14 @@
                                 <div class="card__image-body">
                                     <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
                                     <h6 class="text-capitalize">
-                                        MICL
+                                        MICL Adradhya Hight Park
                                     </h6>
 
                                     <p class="text-capitalize">
                                         <i class="fa fa-map-marker"></i>
                                         Dahisar
                                     </p>
-                                    <p>1/2/3/4 BHK &nbsp;&nbsp;<i class="fa fa-bath"></i>&nbsp;&nbsp;<i class="fa fa-bed"></i>&nbsp;&nbsp;<i class="fa fa-inbox"></i></p>
+                                    <p>1/2/3 BHK &nbsp;&nbsp;<i class="fa fa-bath"></i>&nbsp;&nbsp;<i class="fa fa-bed"></i>&nbsp;&nbsp;<i class="fa fa-inbox"></i></p>
                                 </div>
                             </div>
                         </div>
@@ -276,7 +292,7 @@
                             <div class="card__image card__box">
                                 <div class="card__image-header h-250">
                                     <div class="ribbon text-capitalize">featured</div>
-                                    <img src="images/f5.jpg" alt="" class="img-fluid w100 img-transition">
+                                    <img src="project_img/Screenshot 2021-08-31 010144.png" alt="" class="img-fluid w100 img-transition">
                                     <!-- <div class="info"> for sale</div> -->
                                 </div>
                                 <div class="card__image-body">
@@ -289,7 +305,7 @@
                                         <i class="fa fa-map-marker"></i>
                                         Mira Road
                                     </p>
-                                    <p>1/2/3/4 BHK &nbsp;&nbsp;<i class="fa fa-bath"></i>&nbsp;&nbsp;<i class="fa fa-bed"></i>&nbsp;&nbsp;<i class="fa fa-inbox"></i></p>
+                                    <p>1/2/3 BHK &nbsp;&nbsp;<i class="fa fa-bath"></i>&nbsp;&nbsp;<i class="fa fa-bed"></i>&nbsp;&nbsp;<i class="fa fa-inbox"></i></p>
                                 </div>
                             </div>
                         </div>
@@ -311,7 +327,7 @@
                                         <i class="fa fa-map-marker"></i>
                                         Thane
                                     </p>
-                                    <p>1/2/3/4 BHK &nbsp;&nbsp;<i class="fa fa-bath"></i>&nbsp;&nbsp;<i class="fa fa-bed"></i>&nbsp;&nbsp;<i class="fa fa-inbox"></i></p>
+                                    <p>1/2/3 BHK &nbsp;&nbsp;<i class="fa fa-bath"></i>&nbsp;&nbsp;<i class="fa fa-bed"></i>&nbsp;&nbsp;<i class="fa fa-inbox"></i></p>
                                 </div>
                             </div>
                         </div>
@@ -332,15 +348,21 @@
                         <!-- <h6 class="text-uppercase">trusted By thousands</h6> -->
                         <h2 class="text-capitalize"> why choose use?</h2>
                         <p>
-                            The first step in selling your property is to get a valuation from local experts. They will
-                            inspect your home and take into account its unique features, the area and market conditions
-                            before providing you with the most accurate valuation.
+                            Kingdom Realtors is a boutique firm dealing with the advisory and
+                            transactional sides of Real Estate. It is headed by Mrs Darling Selvan
+                            and supported by her son Jerome Selvan.
+                            <p><p>
+                            We offer our services exclusively for the Western suburbs of Mumbai.
+                            We offer unbiased, uncompromised and fair review of the residential
+                            projects.
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero amet, laborum qui nulla
-                            quae alias tempora. Placeat voluptatem eum numquam quas distinctio obcaecati quaerat,
-                            repudiandae qui! Quia, omnis, doloribus! Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Quod libero amet, laborum qui nullas tempora.</p>
-
+                        <p>
+                            We assist YOU in your real estate journey.
+                            We have together 5 years of combined experience.
+                            We work to help YOU get the best possible customer experience in this
+                            space.
+                            We are here to professionalize the sales sector of the industry. 
+                        </p>
                        
                     </div>
                 </div>
@@ -348,6 +370,499 @@
         </div>
     </section>
 
+    <!-- Lodha Mumbai-->
+    <section class="featured__property ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-6 mx-auto">
+                    <div class="title__head">
+                        <h2 class="text-center text-capitalize">
+                            Lodha 
+                        </h2>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="featured__property-carousel owl-carousel owl-theme">
+                        <div class="item">
+                            <!-- ONE -->
+                            <div class="card__image card__box">
+                                <div class="card__image-header h-250">
+                                    <img src="project_img/lodha/lodha sterling.jpeg" alt="" class="img-fluid w100 img-transition">
+                                    <!-- <div class="info"> for sale</div> -->
+                                </div>
+                                <div class="card__image-body">
+                                    <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                    <h6 class="text-capitalize">
+                                        Lodha Sterling
+                                    </h6>
+                                    <p>Kolshet Rd, Thane
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <!-- THREE -->
+                            <div class="card__image card__box">
+                                <div class="card__image-header h-250">
+                                    <img src="project_img/lodha/Gallery-1000x480-15.jpg" alt="" class="img-fluid w100 img-transition">
+                                    <!-- <div class="info"> for sale</div> -->
+                                </div>
+                                <div class="card__image-body">
+                                    <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                    <h6 class="text-capitalize">
+                                        Lodha Splendora
+                                    </h6>
+                                    <p>GB Road, Thane</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <!-- FOUR -->
+                            <div class="card__image card__box">
+                                <div class="card__image-header h-250">
+                                    <img src="project_img/lodha/lodha-amara.png" alt="" class="img-fluid w100 img-transition">
+                                    <!-- <div class="info"> for sale</div> -->
+                                </div>
+                                <div class="card__image-body">
+                                    <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                    <h6 class="text-capitalize">
+                                        Lodha Amara
+                                    </h6>
+                                    <p>Kolshet Rd, Thane
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <!-- FIVE -->
+                            <div class="card__image card__box">
+                                <div class="card__image-header h-250">
+                                    <img src="project_img/lodha/360-splendoraimage.jpg" alt="" class="img-fluid w100 img-transition">
+                                    <!-- <div class="info"> for sale</div> -->
+                                </div>
+                                <div class="card__image-body">
+                                    <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                    <h6 class="text-capitalize">
+                                        Lodha Crown
+                                    </h6>
+                                    <p>GB Road, Majiwada, Taloja
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <!-- SIX -->
+                            <div class="card__image card__box">
+                                <div class="card__image-header h-250">
+                                    <img src="project_img/lodha/1000x480-new-twt.jpg" alt="" class="img-fluid w100 img-transition">
+                                    <!-- <div class="info"> for sale</div> -->
+                                </div>
+                                <div class="card__image-body">
+                                    <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                    <h6 class="text-capitalize">
+                                        Lodha World Tower
+
+                                    </h6>
+                                    <p> Lower Parel
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <!-- SIX -->
+                            <div class="card__image card__box">
+                                <div class="card__image-header h-250">
+                                    <img src="project_img/lodha/lodha-vista.png" alt="" class="img-fluid w100 img-transition">
+                                    <!-- <div class="info"> for sale</div> -->
+                                </div>
+                                <div class="card__image-body">
+                                    <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                    <h6 class="text-capitalize">
+                                        Lodha Vista
+
+                                    </h6>
+                                    <p> Lower Parel
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <!-- SIX -->
+                            <div class="card__image card__box">
+                                <div class="card__image-header h-250">
+                                    <img src="project_img/lodha/WhatsApp Image 2021-08-11 at 3.44.35 PM.jpeg" alt="" class="img-fluid w100 img-transition">
+                                    <!-- <div class="info"> for sale</div> -->
+                                </div>
+                                <div class="card__image-body">
+                                    <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                    <h6 class="text-capitalize">
+                                        Lodha The Park
+
+                                    </h6>
+                                    <p> Worli
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <!-- SIX -->
+                            <div class="card__image card__box">
+                                <div class="card__image-header h-250">
+                                    <img src="project_img/lodha/lodha-newcuff.png" alt="" class="img-fluid w100 img-transition">
+                                    <!-- <div class="info"> for sale</div> -->
+                                </div>
+                                <div class="card__image-body">
+                                    <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                    <h6 class="text-capitalize">
+                                        Lodha Newcuffparade
+                                    </h6>
+                                    <p> Wadala
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <!-- SIX -->
+                            <div class="card__image card__box">
+                                <div class="card__image-header h-250">
+                                    <img src="project_img/lodha/lodha-upper.jpeg" alt="" class="img-fluid w100 img-transition">
+                                    <!-- <div class="info"> for sale</div> -->
+                                </div>
+                                <div class="card__image-body">
+                                    <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                    <h6 class="text-capitalize">
+                                        Lodha Upper Thane
+                                    </h6>
+                                    <p> Pincode: 421302</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- End Lodha-->
+
+    <section class="featured__property ">
+        <!--Emerald-->
+     <div class="container">
+         <div class="row">
+             <div class="col-md-8 col-lg-6 mx-auto">
+                 <div class="title__head">
+                     <h2 class="text-center text-capitalize">
+                         Godrej Properties 
+                     </h2>
+                 </div>
+             </div>
+             <div class="clearfix"></div>
+         </div>
+         <div class="row">
+             <div class="col-lg-12">
+                 <div class="featured__property-carousel owl-carousel owl-theme">
+                     <div class="item">
+                         <!-- ONE -->
+                         <div class="card__image card__box">
+                             <div class="card__image-header h-250">
+                                 <img src="project_img/godrej/gallery_img_02.jpg" alt="" class="img-fluid w100 img-transition">
+                                 <!-- <div class="info"> for sale</div> -->
+                             </div>
+                             <div class="card__image-body">
+                                 <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                 <h6 class="text-capitalize">
+                                    Godrej Exquisite
+                                 </h6>
+                                 <p>GB Rd Thane</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="item">
+                         <!-- THREE -->
+                         <div class="card__image card__box">
+                             <div class="card__image-header h-250">
+                                 <img src="project_img/godrej/WhatsApp Image 2021-05-04 at 7.24.51 PM (1).jpeg" alt="" class="img-fluid w100 img-transition">
+                                 <!-- <div class="info"> for sale</div> -->
+                             </div>
+                             <div class="card__image-body">
+                                 <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                 <h6 class="text-capitalize">
+                                    Godrej Emerald
+                                 </h6>
+                                 <p>GB Rd Thane</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="item">
+                         <!-- FOUR -->
+                         <div class="card__image card__box">
+                             <div class="card__image-header h-250">
+                                 <img src="project_img/godrej/gallery_img_01.jpg" alt="" class="img-fluid w100 img-transition">
+                                 <!-- <div class="info"> for sale</div> -->
+                             </div>
+                             <div class="card__image-body">
+                                 <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                 <h6 class="text-capitalize">
+                                    Godrej Upavan
+                                 </h6>
+                                 <p>Pincode: 421308</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="item">
+                         <!-- FIVE -->
+                         <div class="card__image card__box">
+                             <div class="card__image-header h-250">
+                                 <img src="project_img/godrej/Homes-with-7-Tier-Security.jpg" alt="" class="img-fluid w100 img-transition">
+                                 <!-- <div class="info"> for sale</div> -->
+                             </div>
+                             <div class="card__image-body">
+                                 <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                 <h6 class="text-capitalize">
+                                    Godrej Nest
+                                 </h6>
+                                 <p>Kandivali</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="item">
+                         <!-- SIX -->
+                         <div class="card__image card__box">
+                             <div class="card__image-header h-250">
+                                 <img src="project_img/godrej/A-Gated-Comunity.jpg" alt="" class="img-fluid w100 img-transition">
+                                 <!-- <div class="info"> for sale</div> -->
+                             </div>
+                             <div class="card__image-body">
+                                 <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                 <h6 class="text-capitalize">
+                                    Godrej Vihaa
+                                 </h6>
+                                 <p>Badlapur</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     <!--End Vihaa--> 
+    </section>
+    <!-- End Godrej-->
+        <!-- kalpataru group -->
+        <section class="featured__property ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-6 mx-auto">
+                        <div class="title__head">
+                            <h2 class="text-center text-capitalize">
+                               Others
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="featured__property-carousel owl-carousel owl-theme">
+                            <div class="item">
+                                <!-- ONE -->
+                                <div class="card__image card__box">
+                                    <div class="card__image-header h-250">
+                                        <img src="project_img/others/gallery3.jpg"  alt="" class="img-fluid w100 img-transition">
+                                   </div>  
+                                   <div class="card__image-body">
+                                    <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                    <h6 class="text-capitalize">
+                                        Sunteck WestWorld
+                                    </h6>
+                                    <p>Naigon</p>
+                                </div>                             
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- ONE -->
+                                <div class="card__image card__box">
+                                    <div class="card__image-header h-250">
+                                        <img src="project_img/Screenshot 2021-08-31 010144.png" alt="" class="img-fluid w100 img-transition">
+                                    </div>   
+                                    <div class="card__image-body">
+                                        <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                        <h6 class="text-capitalize">
+                                            Kalpataru Sristhi
+                                        </h6>
+                                        <p>Mira Road</p>
+                                    </div>                            
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- ONE -->
+                                <div class="card__image card__box">
+                                    <div class="card__image-header h-250">
+                                        <img src="project_img/others/micl.jpeg" alt="" class="img-fluid w100 img-transition">
+                                    </div>        
+                                    <div class="card__image-body">
+                                        <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                        <h6 class="text-capitalize">
+                                            MICL Aaradhya High park
+                                        </h6>
+                                        <p>Dahisar</p>
+                                    </div>                       
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- ONE -->
+                                <div class="card__image card__box">
+                                    <div class="card__image-header h-250">
+                                        <img src="project_img/others/jp-north.jpeg" alt="" class="img-fluid w100 img-transition">
+                                    </div>   
+                                    <div class="card__image-body">
+                                        <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                        <h6 class="text-capitalize">
+                                            JP North
+                                        </h6>
+                                        <p>Mira Road</p>
+                                    </div>                            
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- ONE -->
+                                <div class="card__image card__box">
+                                    <div class="card__image-header h-250">
+                                        <img src="project_img/others/jk-iris.png" alt="" class="img-fluid w100 img-transition">
+                                    </div>    
+                                    <div class="card__image-body">
+                                        <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                        <h6 class="text-capitalize">
+                                           JK IRIS
+                                        </h6>
+                                        <p>Mira Road</p>
+                                    </div>                           
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- ONE -->
+                                <div class="card__image card__box">
+                                    <div class="card__image-header h-250">
+                                        <img src="project_img/others/piramal-vaikunth.png" class="img-fluid w100 img-transition">
+                                    </div>    
+                                    <div class="card__image-body">
+                                        <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                        <h6 class="text-capitalize">
+                                            Piramal Vaikunth
+                                        </h6>
+                                        <p>Thane</p>
+                                    </div>                           
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- ONE -->
+                                <div class="card__image card__box">
+                                    <div class="card__image-header h-250">
+                                        <img src="project_img/others/WhatsApp Image 2021-08-12 at 3.44.27 PM.jpeg" alt="" class="img-fluid w100 img-transition">
+                                    </div>    
+                                    <div class="card__image-body">
+                                        <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                        <h6 class="text-capitalize">
+                                            Piramal Mahalaxmi
+                                        </h6>
+                                        <p>Mahalaxmi</p>
+                                    </div>                           
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- ONE -->
+                                <div class="card__image card__box">
+                                    <div class="card__image-header h-250">
+                                        <img src="project_img/others/WhatsApp Image 2021-08-12 at 1.03.55 PM.jpeg" alt="" class="img-fluid w100 img-transition">
+                                    </div>    
+                                    <div class="card__image-body">
+                                        <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                        <h6 class="text-capitalize">
+                                            BRIKITT
+                                        </h6>
+                                        <p>Goa</p>
+                                    </div>                           
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- ONE -->
+                                <div class="card__image card__box">
+                                    <div class="card__image-header h-250">
+                                        <img src="project_img/others/WhatsApp Image 2021-08-12 at 1.13.37 PM(2).jpeg" alt="" class="img-fluid w100 img-transition">
+                                    </div>    
+                                    <div class="card__image-body">
+                                        <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                        <h6 class="text-capitalize">
+                                            Pushpam Sanskruti
+                                        </h6>
+                                        <p>Karjat</p>
+                                    </div>                           
+                                </div>
+                            </div>
+                            <!-- <div class="item">
+                                <div class="card__image card__box">
+                                    <div class="card__image-header h-250">
+                                        <img src="project_img/others/ Image 2021-08-20 at 4.54.05 PM.jpeg" alt="" class="img-fluid w100 img-transition">
+                                    </div>    
+                                    <div class="card__image-body">
+                                        <h6 class="text-capitalize">
+                                            Sanghvi Ecocity
+                                        </h6>
+                                        <p>Mira Road</p>
+                                    </div>                           
+                                </div>
+                            </div> -->
+                            <div class="item">
+                                <!-- ONE -->
+                                <div class="card__image card__box">
+                                    <div class="card__image-header h-250">
+                                        <img src="project_img/others/raymand.png" alt="" class="img-fluid w100 img-transition">
+                                    </div>    
+                                    <div class="card__image-body">
+                                        <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                        <h6 class="text-capitalize">
+                                            Raymond Realty Ten X Habitat 
+                                        </h6>
+                                        <p>Thane</p>
+                                    </div>                           
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- ONE -->
+                                <div class="card__image card__box">
+                                    <div class="card__image-header h-250">
+                                        <img src="project_img/others/Dosti-West-County-Cedar-thumb.jpg" alt="" class="img-fluid w100 img-transition">
+                                    </div>    
+                                    <div class="card__image-body">
+                                        <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                        <h6 class="text-capitalize">
+                                            Dosti West County
+                                        </h6>
+                                        <p>Balkum, Thane</p>
+                                    </div>                           
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- ONE -->
+                                <div class="card__image card__box">
+                                    <div class="card__image-header h-250">
+                                        <img src="project_img/others/planet-north-banner.jpg" alt="" class="img-fluid w100 img-transition">
+                                    </div>    
+                                    <div class="card__image-body">
+                                        <!-- <span class="badge badge-primary text-capitalize mb-2">house</span> -->
+                                        <h6 class="text-capitalize">
+                                            Dosti Planet North
+                                        </h6>
+                                        <p>Shilphata - 400612</p>
+                                    </div>                           
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Kalpatru-->
 
     <!-- OUR PARTNERS -->
     <section class="featured__property ">
@@ -358,8 +873,6 @@
                         <h2 class="text-center text-capitalize">
                             Our Partners
                         </h2>
-                        <p class="text-center text-capitalize">Brand Partners Successful Projects Trusted Many Clients Real Estate</p>
-
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -472,9 +985,8 @@
                 <div class="col-md-8 col-lg-6 mx-auto">
                     <div class="title__head">
                         <h2 class="text-center text-capitalize">
-                            what people says
+                            people says
                         </h2>
-                        <p class="text-center text-capitalize">people says about walls property.</p>
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -484,7 +996,7 @@
                 <div class="item testimonial__block">
                     <div class="testimonial__block-card bg-reviews">
                         <q>
-                            100% trusted kingdom realtors for real estate business. Recently I done land deal with them satisfied service at reasonable price.
+                            100% trusted kingdom realtors for real estate business. Recently I done House deal with them satisfied service at reasonable price.
                         </q>
                     </div>
                     <div class="testimonial__block-users">
@@ -535,7 +1047,7 @@
                 <div class="item testimonial__block">
                     <div class="testimonial__block-card bg-reviews">
                         <q>
-                            Thank you walls property help me, choice dream home We were impressed with the build
+                            Thank you Kingdom Realtors  help me, choice dream home We were impressed with the build
                             quality, Plus they are competitively priced.
                         </q>
                     </div>
@@ -561,14 +1073,14 @@
                             <img src="images/80x80.jpg" alt="" class="img-fluid">
                         </div> -->
                         <div class="testimonial__block-users-name">
-                            Vikilshah
+                            Vikhil Shah
                         </div>
                     </div>
                 </div>
                 <div class="item testimonial__block">
                     <div class="testimonial__block-card bg-reviews">
                         <q>
-                          I have got a genuine and very quick response from the site. I am very happy with service of NoBroker.com owner plans.
+                          I have got a genuine and very quick response from the site. I am very happy with service of owner plans.
                         </q>
                     </div>
                     <div class="testimonial__block-users">
@@ -576,7 +1088,7 @@
                             <img src="images/80x80.jpg" alt="" class="img-fluid">
                         </div> -->
                         <div class="testimonial__block-users-name">
-                            Manasuil Sharama
+                            Manaswi Sharma
                         </div>
                     </div>
                 </div>
@@ -617,7 +1129,7 @@
 
 
                     <!-- NEWSLETTERS -->
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="widget__footer">
                             <h4 class="footer-title">follow us </h4>
                             <p class="mb-2">
@@ -625,35 +1137,35 @@
                             </p>
                             <p>
                                 <a target="_blank" href="https://www.facebook.com/kingdomrealtors777">
-                                <button class="btn btn-social btn-social-o facebook mr-1">
-                                    <i class="fa fa-facebook-f"></i>
-                                </button>
-                                </a>
-                                <a target="_blank" href="https://twitter.com/jerome_selvan">
-                                <button class="btn btn-social btn-social-o twitter mr-1">
-                                    <i class="fa fa-twitter"></i>
-                                </button>
-                                </a>
-                                <a target="_blank" href="https://www.linkedin.com/in/jerome-selvan">
-                                <button class="btn btn-social btn-social-o linkedin mr-1">
-                                    <i class="fa fa-linkedin"></i>
-                                </button>
-                                </a>
-                                <a target="_blank" href="https://www.instagram.com/kingdomrealtors777/">
-                                <button class="btn btn-social btn-social-o instagram mr-1">
-                                    <i class="fa fa-instagram"></i>
-                                </button>
-                                </a>
-                                <a target="_blank" href="https://www.youtube.com/channel/UCXYLf9Iy7KAVAr64svKosDQ">
-                                <button class="btn btn-social btn-social-o youtube mr-1">
-                                    <i class="fa fa-youtube"></i>
-                                </button>
-                                </a>
-                                <a target="_blank" href="https://www.expglobalindia.co.in/A42507#/.YSoyYJgrrk8.whatsapp">
-                                    <button class="btn btn-social btn-social-o ">
-                                        <img style="width: 100%; margin-top: -29.5%;" src="images/expindia.png"></img>
+                                    <button class="btn btn-social btn-social-o facebook mr-1">
+                                        <i class="fa fa-facebook-f"></i>
                                     </button>
-                                </a>
+                                    </a>
+                                    <a target="_blank" href="https://twitter.com/jerome_selvan">
+                                    <button class="btn btn-social btn-social-o twitter mr-1">
+                                        <i class="fa fa-twitter"></i>
+                                    </button>
+                                    </a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/jerome-selvan">
+                                    <button class="btn btn-social btn-social-o linkedin mr-1">
+                                        <i class="fa fa-linkedin"></i>
+                                    </button>
+                                    </a>
+                                    <a target="_blank" href="https://www.instagram.com/kingdomrealtors777/">
+                                    <button class="btn btn-social btn-social-o instagram mr-1">
+                                        <i class="fa fa-instagram"></i>
+                                    </button>
+                                    </a>
+                                    <a target="_blank" href="https://www.youtube.com/channel/UCXYLf9Iy7KAVAr64svKosDQ">
+                                    <button class="btn btn-social btn-social-o youtube mr-1">
+                                        <i class="fa fa-youtube"></i>
+                                    </button>
+                                    </a>
+                                    <a target="_blank" href="https://www.quora.com/profile/Jerome-Selvan-2">
+                                        <button class="btn btn-social btn-social-o youtube mr-1">
+                                            <i class="fa fa fa-quora"></i>
+                                        </button>
+                                        </a>
                             </p>
                             <br>
                             <h4 class="footer-title">newsletter</h4>
@@ -664,11 +1176,16 @@
                                     Don’t miss to subscribe to our news feeds, kindly fill the form below
                                 </p>
                                 <div class="mt-3">
-                                    <input type="text" class="form-control mb-2" placeholder="Your email address">
+                                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                    onload="if(submitted)  { alert('Thanks for subscribe, Our team will contact you.'); window.location='https://kingdomrealtors.in/';}"></iframe>
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeMpf6FKcaJZ9jvXzFmtJBuMIjRW_QsXLbZlWDP34lKBK-Ocg/formResponse"
+                    target="hidden_iframe" method="POST" id="mG61Hd" onsubmit="return validateForms();">
+                                    <input type="text" class="form-control mb-2" name="entry.552061512" id="email" placeholder="Your email address">
 
-                                    <button class="btn btn-primary btn-block text-capitalize" type="button">subscribe
+                                    <button class="btn btn-primary btn-block text-capitalize" type="submit">subscribe
 
                                     </button>
+                                </form>
                                 </div>
                             </div>
 
@@ -683,24 +1200,33 @@
         <div class="bg__footer-bottom-v1">
             <div class="container">
                 <div class="row flex-column-reverse flex-md-row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <span>
                             © Copyright 2021. All Rights Reserved By 
                             <a style="color: #ffcb3a" href="#">KINGDOM REALTORS</a>
                         </span>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4" style="text-align: end;">
+                        <span>
+                            <img id="foot-img" src="images/maharera.png">
+                            MahaRERA NO: 
+                            <a style="color: #ffcb3a" href="#">A51 800024600</a>
+                        </span>
+                    </div>
+                    <div class="col-md-4">
                         <ul class="list-inline ">
                             <li class="list-inline-item">
                                 <span>Developed By
                                 <a style="color: #ffcb3a" href="https://www.digisailor.com/">
                                     Digisailor
                                 </a>
+                                </span>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <!-- End Footer  -->
     </footer>
@@ -713,3 +1239,25 @@
 </body>
 
 </html>
+<script>
+    function myFunction() {
+      var d = new Date();
+      var year = d.getFullYear();
+    
+      var date = d.getDate();
+      
+    
+      var weekday = new Array(7);
+      weekday[0] = "Sunday";
+      weekday[1] = "Monday";
+      weekday[2] = "Tuesday";
+      weekday[3] = "Wednesday";
+      weekday[4] = "Thursday";
+      weekday[5] = "Friday";
+      weekday[6] = "Saturday";
+    
+      var n = weekday[d.getDay()];
+      document.getElementById("demo").innerHTML = n;
+      alert(year + date + n)
+    }
+    </script>

@@ -1,7 +1,7 @@
 {
   "hosting": {
     "public": "public",
-    "site"  : "kingdomreal",
+    "site": "kingdomrealtors2021",
     "ignore": [
       "firebase.json",
       "**/.*",
